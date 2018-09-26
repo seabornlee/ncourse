@@ -10,7 +10,7 @@ AppChain 上的智能合约是兼容以太坊智能合约的，所以一样都�
 
 ![](http://img.haoqicat.com/2018091203.jpg)
 
-把 SimpleStore.sol 的源码粘贴到 remix 的编辑区域，然后点右侧的 `start to compile` 进行编译。
+把 SimpleStore.sol 的源码粘贴到 remix 的编辑区域，然后点右侧的 `start to compile` 进行编译。这里需要注意，有的时候需要稍微提高一下语言版本号，才能编译通过。
 
 ![](http://img.haoqicat.com/2018091204.jpg)
 

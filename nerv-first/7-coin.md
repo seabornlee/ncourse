@@ -64,7 +64,7 @@ node index.js
 ![](http://img.haoqicat.com/2018091202.jpg)
 
 
-也可以用 nervos.js 的 getBalance 接口来读取到余额。
+也可以用 nervos.js 的 getBalance 接口来读取到余额，当然这需要从代码中体现出地址和测试网链接。
 
 ```
 nervos.appchain.getBalance(address).then(console.log)
