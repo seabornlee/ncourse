@@ -43,7 +43,7 @@ nervos.appchain.accounts.wallet.add(account) // add account to nervos
 module.exports = nervos
 ```
 
-创建 nervos.js 文件，初始化 nervos 对象。通过使用 config.chain ，制定了要跟那条区块链进行交互。privateKeyToAccount 用私钥生成 account 。通过 wallet.add 接口把 account 添加到了 nervos 对象中并最终导出。
+创建 nervos.js 文件，初始化 nervos 对象。通过使用 config.chain ，指定了要跟哪条区块链进行交互。privateKeyToAccount 用私钥生成 account 。通过 wallet.add 接口把 account 添加到了 nervos 对象中并最终导出。
 
 transaction.js
 
@@ -63,7 +63,7 @@ const transaction = {
 module.exports = transaction
 ```
 
-创建 transaction.js 文件。`from` 一项制定了我们自己账户的地址。注意这里没有 `to` 也就是没有接收方。`privateKey` 一项用来指定私钥。特别说明一下，私钥是不能暴露给任何人的，这里为了演示方便，我们直接把代码写到了代码中，但是实际的 DApp 一般都是开源软件，所以私钥是不能写到代码中的。AppChain 的解决方式是把私钥保存到 Neuron 钱包中，需要进行交易的时候，让代码跟 Neuron 交互来完成签名。当然，我们这里还是先不涉及 Neuron ，暂时把私钥写到了代码中。`value` 是交易数额，这里设置为0。后面的 `quota` ，`nonce` ，`chainId` ，`version` ，`validUntilBlock` 都是跟交易安全相关的设置，可以到 AppChain 的核心，也就是 CITA 的官方文档上，找到各自的含义：https://docs.nervos.org/cita/#/rpc_guide/rpc 。
+创建 transaction.js 文件。`from` 一项指定了我们自己账户的地址。注意这里没有 `to` 也就是没有接收方。`privateKey` 一项用来指定私钥。特别说明一下，私钥是不能暴露给任何人的，这里为了演示方便，我们直接把代码写到了代码中，但是实际的 DApp 一般都是开源软件，所以私钥是不能写到代码中的。AppChain 的解决方式是把私钥保存到 Neuron 钱包中，需要进行交易的时候，让代码跟 Neuron 交互来完成签名。当然，我们这里还是先不涉及 Neuron ，暂时把私钥写到了代码中。`value` 是交易数额，这里设置为0。后面的 `quota` ，`nonce` ，`chainId` ，`version` ，`validUntilBlock` 都是跟交易安全相关的设置，可以到 AppChain 的核心，也就是 CITA 的官方文档上，找到各自的含义：https://docs.nervos.org/cita/#/rpc_guide/rpc 。
 
 
 deploy.js

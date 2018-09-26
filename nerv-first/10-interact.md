@@ -4,7 +4,7 @@
 
 交互这部分的代码，我们也放到一个单独的名叫 interact/ 文件夹中。interact 文件夹中的很多文件其实跟 deploy 文件夹中的代码很类似。
 
-config.js 中的内容跟 deploy 文件夹中的 config 内容基本一致，唯一的区别是添加了合约地址，contractAddress 这一项。显然，知道合约地址，才能跟合约进行交互。代码在 Github 仓库中：https://github.com/happypeter/NervFirst/blob/master/interact/config.js 。
+config.js 中的内容跟 deploy 文件夹中的 config 内容基本一致，唯一的区别是添加了合约地址，contractAddress 这一项。显然，知道合约地址，才能跟合约进行交互。代码在 Github 仓库中：https://github.com/happypeter/NervFirst/blob/master/interact/config.js 。注意，私钥和合约地址的具体的值都要根据自己部署时候的实际情况进行替换。
 
 nervos.js 和 transaction.js 跟 deploy 文件夹中的内容完全一样，直接拷贝过来即可。代码在 Github 仓库中也可以看到：https://github.com/happypeter/NervFirst/blob/master/interact 。
 

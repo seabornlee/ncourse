@@ -62,7 +62,7 @@ yarn start
 
 ## 写操作
 
-接下来完成写操作。也是基本拷贝 interact/index.js 中的内容，配上上一点点 React 的受控组件的小知识。
+接下来完成写操作。也是基本拷贝 interact/index.js 中的内容，配上一点点 React 的受控组件的小知识。
 
 
 App.js

@@ -29,7 +29,7 @@ const transaction = {
 - privateKey: nervos.appchain.accounts.wallet[0].privateKey,
 ```
 
-其他内容不动，删除三行文件。首先删除对 nervos 的导入。然后删除 `from` 和 `privateKey` 两项，也就是账户信息删除掉，因为这些信息应该由 Neuron 来提供了。
+其他内容不动，删除三行。首先删除对 nervos 的导入。然后删除 `from` 和 `privateKey` 两项，也就是账户信息删除掉，因为这些信息应该由 Neuron 来提供了。
 
 nerovs.js
 
@@ -50,7 +50,7 @@ var nervos = window.nervos
 module.exports = nervos
 ```
 
-再到 nervos.js 文件中国，首先导入 Nervos ，然后导入配置。因为 Neuron 是 Nervos AppChain 专用的钱包，所以只要在 Neuron 中打开项目， `window.nervos` 这个全局变量默认就是存在的。所以 if 条件肯定是满足的。再看 if 成立的代码块中这两条语句，由于 Neuron 是支持多链的，所以这里要明确指明一下，当前 DApp 要去交互的是那条链。这里 node.cryptape.com 对应的就是测试链，或者准确的说是测试链上的一个节点。因为区块链一定是一个网络，网络上的节点数量一般都不是一个。这里要注意的是保证设置的链就是我们部署合约的链。`else` 代码块中的语句是为了应对 DApp 不运行在 Neuron 中的情况，我们可以忽略这部分。另外补充一点，到底要使用那条链，也可以在 manifest.json 文件中去配置，具体细节可以参考官方案例：https://github.com/cryptape/nervos-appchain-docs/blob/develop/zh-CN/quick-start/build-dapp.md#%E9%85%8D%E7%BD%AE-manifestjson ，我们这里也忽略。
+再到 nervos.js 文件中，首先导入 Nervos ，然后导入配置。因为 Neuron 是 Nervos AppChain 专用的钱包，所以只要在 Neuron 中打开项目， `window.nervos` 这个全局变量默认就是存在的。所以 if 条件肯定是满足的。再看 if 成立的代码块中这两条语句，由于 Neuron 是支持多链的，所以这里要明确指明一下，当前 DApp 要去交互的是哪条链。这里 node.cryptape.com 对应的就是测试链，或者准确的说是测试链上的一个节点。因为区块链一定是一个网络，网络上的节点数量一般都不是一个。这里要注意的是保证设置的链就是我们部署合约的链。`else` 代码块中的语句是为了应对 DApp 不运行在 Neuron 中的情况，我们可以忽略这部分。另外补充一点，到底要使用哪条链，也可以在 manifest.json 文件中去配置，具体细节可以参考官方案例：https://github.com/cryptape/nervos-appchain-docs/blob/develop/zh-CN/quick-start/build-dapp.md#%E9%85%8D%E7%BD%AE-manifestjson ，我们这里也忽略。
 
 config.js
 
