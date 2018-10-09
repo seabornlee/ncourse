@@ -60,7 +60,7 @@ config.js
 -  '0x5d3c73fa94c85bbcb516cb256a4e82c414255a270b5d065179a94aa0d5dc3efe',
 ```
 
-config.js 中要删除两项内容。一项是 chain ，参考官方文档，https://docs.nervos.org/nervos-appchain-docs/#/quick-start/deploy-appchain ，可以看到这里这个链接跟上面我们在 nervos.js 中设置的 node.cryptape.com ，都是同一测试网节点。所以这里就不用重复指定了。要删除的第二项是 `privateKey` ，因为签署交易用的是 Neuron 钱包中的账户。最终 config.js 保留的就是一个合约地址了。
+config.js 中要删除两项内容。一项是 chain ，参考官方文档，https://docs.nervos.org/nervos-appchain-docs/#/quick-start/deploy-appchain ，可以看到这里这个链接跟上面我们在 nervos.js 中设置的 node.cryptape.com ，都是同一测试链节点。所以这里就不用重复指定了。要删除的第二项是 `privateKey` ，因为签署交易用的是 Neuron 钱包中的账户。最终 config.js 保留的就是一个合约地址了。
 
 App.js
 
@@ -98,7 +98,7 @@ ifconfig|grep 192
 
 查看一下我们开发机的本地局域网 IP ，比如我这里是 192.168.1.108 。
 
-下面来找一部 Andriod 手机，安装 Neuron 。然后按照界面上的步骤，去创建测试网账户，并且也去申请一些测试网的 NOS 代币。过程都是比较直白的，咱们这里就不演示了。接下来就输入 192.168.1.108:3000 ，在 Neuron 中打开 DApp 。
+下面来找一部 Andriod 手机，安装 Neuron 。然后按照界面上的步骤，去创建测试链账户，并且也去申请一些测试链代币。过程都是比较直白的，咱们这里就不演示了。接下来就输入 192.168.1.108:3000 ，在 Neuron 中打开 DApp 。
 
 可以随意输入一些文字，然后点提交。接下来会弹出的几个界面，但是总体要做的其实就是一件事，就是用钱包私钥签署一下交易。因为交易过程中虽然转账金额为0，但是还是要有手续费的，是要花 Gas 的。
 

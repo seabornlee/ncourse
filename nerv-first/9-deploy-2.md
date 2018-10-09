@@ -88,7 +88,7 @@ const myContract = new nervos.appchain.Contract(abi)
 })()
 ```
 
-创建 deploy.js 。这个是核心部署文件。首先导入了之前准备好的各项信息，创建了一个合约实例 myContract 。接下来跟区块链相关的接口基本都是异步操作，返回 Promise ，所以采用了 async 函数来执行。首先获得当前最新的区块高度，所谓区块高度就是区块链上最新的一个块是整条链的第几个块。然后用这个高度加上88作为 validUntilBlock 的值。接下来 deploy 一下字节码，然后就可以从 `receipt` 也就是收据中，得到合约地址并打印出来。通过 `storeAbi` 接口把合约 ABI 发送到链上。具体各个接口的描述可以参考 Nervos.js 的 npm 主页：https://www.npmjs.com/package/@nervos/chain 。
+创建 deploy.js 。这个是核心部署文件。首先导入了之前准备好的各项信息，创建了一个合约实例 myContract 。接下来跟区块链相关的接口基本都是异步操作，返回 Promise ，所以采用了 async 函数来执行。首先获得当前最新的区块高度，所谓区块高度就是区块链上最新的一个块是整条链的第几个块。然后用这个高度加上88作为 validUntilBlock 的值。接下来 deploy 一下字节码，然后就可以从 `receipt` 也就是回执中，得到合约地址并打印出来。通过 `storeAbi` 接口把合约 ABI 发送到链上。具体各个接口的描述可以参考 Nervos.js 的 npm 主页：https://www.npmjs.com/package/@nervos/chain 。
 
 
 有了这些文件，再加上上一节的 complied.js 和 config.js 文件，代码就都准备好了。

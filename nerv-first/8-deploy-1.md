@@ -2,7 +2,7 @@
 
 ## 编译
 
-AppChain 上的智能合约是兼容以太坊智能合约的，所以一样都能用 Solidity 写。写完之后甚至可以用以太坊的编译环境进行编译。
+ AppChain是兼容以太坊智能合约的，所以一样都能用 Solidity 写。写完之后，会用到 Solidity 自己的编译环境进行编译，这一步可以用以太坊的智能合约相关的开发工具。
 
 首先下载一个智能合约来练练手。官方的 Dapp Demo 仓库：https://github.com/cryptape/dapp-demos/tree/develop/first-forever ，有一个 SimpleStore.sol 文件，就是一个简单的智能合约。为了防止官方项目调整，大家找不到，我自己也把文件托管到了我的仓库中：https://github.com/happypeter/NervFirst/tree/master/contract 。合约的内容暂时我们不关心，就是保存一些简单时间和留言数据。
 
@@ -10,7 +10,7 @@ AppChain 上的智能合约是兼容以太坊智能合约的，所以一样都�
 
 ![](https://img.haoqicat.com/2018091203.jpg)
 
-把 SimpleStore.sol 的源码粘贴到 remix 的编辑区域，然后点右侧的 `start to compile` 进行编译。这里需要注意，有的时候需要稍微提高一下语言版本号，才能编译通过。
+把 SimpleStore.sol 的源码粘贴到 remix 的编辑区域，然后点右侧的 `start to compile` 进行编译。这里需要注意，有的时候需要稍微提高一下合约声明的版本号，才能编译通过。
 
 ![](https://img.haoqicat.com/2018091204.jpg)
 

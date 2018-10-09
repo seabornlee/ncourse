@@ -78,3 +78,7 @@ index.js 中我们会跟合约中的一个写接口也就是 `add` 和两个读�
 ## 总结
 
 可以看到，由于有了 Nervos.js 的辅助，跟合约交互就是简单的接口调用，没有超出一个普通开发者的知识范围。我们成功的完成了使用 JS 代码跟合约进行读和写的交互操作，下一步就可以真正动手去写 App ，或者说就是写一个友好的 UI 了。最后要说明一下，本节的内容参考了 Nervos 官方的案例文档： https://github.com/cryptape/nervos-appchain-docs/blob/develop/zh-CN/quick-start/build-dapp.md 。
+
+参考：
+
+- https://www.jianshu.com/p/0ed0be3f6abc

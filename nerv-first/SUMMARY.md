@@ -7,7 +7,7 @@
 - [合约编程语言 Solidity](4-sol.md)
 - [HTTP 请求和 JSON-RPC](5-rpc.md)
 - [什么是加密货币钱包？](6-wallet.md)
-- [申请测试网代币](7-coin.md)
+- [申请测试链代币](7-coin.md)
 - [部署智能合约 part1](8-deploy-1.md)
 - [部署智能合约 part2](9-deploy-2.md)
 - [与合约交互](10-interact.md)
