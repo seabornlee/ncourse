@@ -1,5 +1,13 @@
 [
   {
+    "id": "react-go",
+    "title": "React 破冰之旅",
+    "desc": "React 基础知识点个个击破，一点一例",
+    "image": "https://img.haoqicat.com/2018111201.jpg",
+    "date": "2018-11-12",
+    "published": false
+  },
+  {
     "id": "crypto-block",
     "title": "区块链背后的密码学",
     "desc": "扫清开发者上手区块链时候的密码学概念拦路虎",
