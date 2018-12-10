@@ -4,6 +4,7 @@
 - [加密经济的三个支柱](http://haoduoshipin.com/videos/312)
 - [尼克萨博说智能合约](http://haoduoshipin.com/videos/315)
 - [开源传奇](http://haoduoshipin.com/videos/314)
+- [P2P 网络](http://haoduoshipin.com/videos/321)
 - [P2P 架构的 Web](http://haoduoshipin.com/videos/313/)
 - [加密共识](http://haoduoshipin.com/videos/310)
 - [端到端加密是一种生活方式](http://haoduoshipin.com/videos/309)
