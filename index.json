@@ -1,5 +1,13 @@
 [
   {
+    "id": "ce",
+    "title": "加密经济学",
+    "desc": "技术角度看未来经济社会的一种可能",
+    "image": "https://img.haoqicat.com/2018102602.jpg",
+    "date": "2018-12-15",
+    "published": false
+  },
+  {
     "id": "react-go",
     "title": "React 破冰之旅",
     "desc": "React 基础知识点个个击破，一点一例",
