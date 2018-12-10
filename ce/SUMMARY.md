@@ -11,3 +11,4 @@
 - [Nervos 助力加密经济](http://haoduoshipin.com/videos/308)
 - [公信数据](http://haoduoshipin.com/videos/306/)
 - [V 神说加密经济学](http://haoduoshipin.com/videos/305/)
+- [去中心化自治组织 DAO](http://haoduoshipin.com/videos/328/)
