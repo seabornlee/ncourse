@@ -1,8 +1,8 @@
 # Summary
 
-- [课程简介](0-intro.md)
-- [什么是加密经济学](9-v.md)
-- [加密经济的三个支柱](1-pillar.md)
+- [课程简介](intro.md)
+- [什么是加密经济学](v.md)
+- [加密经济的三个支柱](pillar.md)
 - [P2P 网络](2-p2p.md)
 - [P2P 架构的 Web](3-dweb.md)
 - [加密共识](4-cc.md)
