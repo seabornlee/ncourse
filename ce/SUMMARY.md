@@ -10,6 +10,6 @@
 - [公信数据](td.md)
 - [智能合约](sc.md)
 - [代币 Token 存在的意义](token.md)
-- [去中心化自治组织 DAO](10-dao.md)
+- [去中心化自治组织 DAO](dao.md)
 - [肉数解耦](11-pw.md)
 - [维基经济学 Wikinomics](12-wiki.md)
