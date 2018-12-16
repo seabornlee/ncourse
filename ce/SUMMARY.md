@@ -1,15 +1,15 @@
 # Summary
 
 - [课程简介](0-intro.md)
+- [什么是加密经济学](9-v.md)
 - [加密经济的三个支柱](1-pillar.md)
 - [P2P 网络](2-p2p.md)
 - [P2P 架构的 Web](3-dweb.md)
 - [加密共识](4-cc.md)
 - [端到端加密是一种生活方式](5-e2e.md)
 - [公信数据](6-td.md)
-- [Nervos 助力加密经济](7-nv.md)
-- [尼克萨博说智能合约](8-sc.md)
-- [V 神说加密经济学](9-v.md)
+- [智能合约](8-sc.md)
+- [代币 Token 存在的意义](token.md)
 - [去中心化自治组织 DAO](10-dao.md)
 - [肉数解耦](11-pw.md)
 - [维基经济学 Wikinomics](12-wiki.md)
